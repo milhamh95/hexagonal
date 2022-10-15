@@ -24,7 +24,7 @@ public class Account {
             Money baselineBalance,
             ActivityWindow activityWindow
     ) {
-        return new Account(null, baselineBalance, activityWindows);
+        return new Account(null, baselineBalance, activityWindow);
     }
 
     public static Account withId(
